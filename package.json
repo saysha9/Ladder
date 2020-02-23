@@ -1,0 +1,14 @@
+{
+  "name": "ladder",
+  "version": "1.0.0",
+  "description": "ladder",
+  "main": "index.js",
+  "scripts": {
+    "test": "you made it"
+  },
+  "author": "SASHA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
