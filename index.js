@@ -25,13 +25,10 @@ app.post("/ladder", function(req,res){
   var height = parseInt(req.body.height);
   var depth = parseInt (req.body.depth);
 
-  var ladder = Math.sqrt(Math.pow(height,2) + (Math.pow(depth,2)));
-  res.send ( "The Ladder is " + ladder.toFixed(0) + " feet long");
+  var ladderlength = Math.sqrt(Math.pow(height,2) + (Math.pow(depth,2)));
+  res.send ( "The Ladder is " + ladderlength.toFixed(0) + " feet long");
 
 });
-
-
-
 
 
 //app.listen(3000, function () {
